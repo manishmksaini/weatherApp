@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.glassCard{
+  background:  rgba(15, 15, 15, 0.226);
+  /* box-shadow:  0 8px 32px 0 rgba(31,38,135,0.37); */
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border-radius: 12px;
+  border: 1px solid   rgba(31, 31, 31, 0.210);
+}
+.glassCardSearch{
+  background:  rgba(160, 160, 160, 0.363);
+  /* box-shadow:  0 8px 32px 0 rgba(31,38,135,0.37); */
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border-radius: 12px;
+  /* border: 1px solid   rgba(31, 31, 31, 0.210); */
+}
+input::placeholder{
+  color: black;
+}
+video{
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+}
